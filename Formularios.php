@@ -5,7 +5,7 @@
 </head>
 <body>
     <h2>Formulario de Contacto</h2>
-    <form method="post" action="ValidorFormulario.php">
+    <form method="POST" action="ValidorFormulario.php" enctype="multipart/form-data">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br>
 
