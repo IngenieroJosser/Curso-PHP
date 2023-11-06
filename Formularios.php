@@ -5,7 +5,7 @@
 </head>
 <body>
     <h2>Formulario de Contacto</h2>
-    <form method="post" action="a_donde_va_a_redireccionar.php">
+    <form method="post" action="ValidorFormulario.php">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br>
 
