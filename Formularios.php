@@ -11,6 +11,7 @@
 
         <label for="email">Correo Electrónico:</label>
         <input type="email" id="email" name="email" required><br>
+        <input type="image" id="imagen" name="imagen">
 
         <label for="mensaje">Mensaje:</label>
         <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
@@ -27,12 +28,14 @@
         $nombre = $_POST["nombre"];
         $email = $_POST["email"];
         $mensaje = $_POST["mensaje"];
+        $image = $_POST["imagen"];
 
         // Realiza alguna acción con los datos (por ejemplo, enviar un correo)
         // En este ejemplo, simplemente mostraremos los datos enviados
         echo "Nombre: $nombre<br>";
         echo "Correo Electrónico: $email<br>";
         echo "Mensaje: $mensaje<br>";
+        echo "imagen: $image<br>";
     } else {
         echo "Acceso no permitido.";
     }
